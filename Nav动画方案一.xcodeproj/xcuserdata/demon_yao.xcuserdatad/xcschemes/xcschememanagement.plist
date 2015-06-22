@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Nav动画方案一.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Nav动画方案一2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Nav动画方案一3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Nav动画方案二.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>52D028E21B379D4B007551DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52D028FB1B379D4B007551DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52D0291A1B37B175007551DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52D029521B37C1EC007551DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52D029641B37C1F2007551DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D028E91B379D4B007551DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028E81B379D4B007551DD /* main.m */; };
+		52D028EC1B379D4B007551DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EB1B379D4B007551DD /* AppDelegate.m */; };
+		52D028EF1B379D4B007551DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EE1B379D4B007551DD /* ViewController.m */; };
+		52D028F21B379D4B007551DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F01B379D4B007551DD /* Main.storyboard */; };
+		52D028F41B379D4B007551DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F31B379D4B007551DD /* Images.xcassets */; };
+		52D028F71B379D4B007551DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F51B379D4B007551DD /* LaunchScreen.xib */; };
+		52D029031B379D4B007551DD /* Nav_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029021B379D4B007551DD /* Nav_____Tests.m */; };
+		52D029101B379E73007551DD /* NavgationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0290F1B379E73007551DD /* NavgationAnimation.m */; };
+		52D029131B37A4B4007551DD /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */; };
+		52D029191B37AC1F007551DD /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029181B37AC1F007551DD /* TZNavigationController.m */; };
+		52D0291C1B37B175007551DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EE1B379D4B007551DD /* ViewController.m */; };
+		52D0291D1B37B175007551DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EB1B379D4B007551DD /* AppDelegate.m */; };
+		52D0291E1B37B175007551DD /* NavgationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0290F1B379E73007551DD /* NavgationAnimation.m */; };
+		52D0291F1B37B175007551DD /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029181B37AC1F007551DD /* TZNavigationController.m */; };
+		52D029201B37B175007551DD /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */; };
+		52D029211B37B175007551DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028E81B379D4B007551DD /* main.m */; };
+		52D029241B37B175007551DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F01B379D4B007551DD /* Main.storyboard */; };
+		52D029251B37B175007551DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F51B379D4B007551DD /* LaunchScreen.xib */; };
+		52D029261B37B175007551DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F31B379D4B007551DD /* Images.xcassets */; };
+		52D029541B37C1EC007551DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EE1B379D4B007551DD /* ViewController.m */; };
+		52D029551B37C1EC007551DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EB1B379D4B007551DD /* AppDelegate.m */; };
+		52D029561B37C1EC007551DD /* NavgationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0290F1B379E73007551DD /* NavgationAnimation.m */; };
+		52D029571B37C1EC007551DD /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029181B37AC1F007551DD /* TZNavigationController.m */; };
+		52D029581B37C1EC007551DD /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */; };
+		52D029591B37C1EC007551DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028E81B379D4B007551DD /* main.m */; };
+		52D0295C1B37C1EC007551DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F01B379D4B007551DD /* Main.storyboard */; };
+		52D0295D1B37C1EC007551DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F51B379D4B007551DD /* LaunchScreen.xib */; };
+		52D0295E1B37C1EC007551DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F31B379D4B007551DD /* Images.xcassets */; };
+		52D029661B37C1F2007551DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EE1B379D4B007551DD /* ViewController.m */; };
+		52D029671B37C1F2007551DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028EB1B379D4B007551DD /* AppDelegate.m */; };
+		52D029681B37C1F2007551DD /* NavgationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D0290F1B379E73007551DD /* NavgationAnimation.m */; };
+		52D029691B37C1F2007551DD /* TZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029181B37AC1F007551DD /* TZNavigationController.m */; };
+		52D0296A1B37C1F2007551DD /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */; };
+		52D0296B1B37C1F2007551DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D028E81B379D4B007551DD /* main.m */; };
+		52D0296E1B37C1F2007551DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F01B379D4B007551DD /* Main.storyboard */; };
+		52D0296F1B37C1F2007551DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F51B379D4B007551DD /* LaunchScreen.xib */; };
+		52D029701B37C1F2007551DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D028F31B379D4B007551DD /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52D028FD1B379D4B007551DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52D028DB1B379D4B007551DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D028E21B379D4B007551DD;
+			remoteInfo = "Nav动画方案一";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D028E31B379D4B007551DD /* Nav动画方案一.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav动画方案一.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D028E71B379D4B007551DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D028E81B379D4B007551DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52D028EA1B379D4B007551DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52D028EB1B379D4B007551DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52D028ED1B379D4B007551DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../Nav动画方案一/ViewController.h"; sourceTree = "<group>"; };
+		52D028EE1B379D4B007551DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../Nav动画方案一/ViewController.m"; sourceTree = "<group>"; };
+		52D028F11B379D4B007551DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52D028F31B379D4B007551DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52D028F61B379D4B007551DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52D028FC1B379D4B007551DD /* Nav动画方案一Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nav动画方案一Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D029011B379D4B007551DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D029021B379D4B007551DD /* Nav_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Nav_____Tests.m"; sourceTree = "<group>"; };
+		52D0290E1B379E73007551DD /* NavgationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavgationAnimation.h; sourceTree = "<group>"; };
+		52D0290F1B379E73007551DD /* NavgationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavgationAnimation.m; sourceTree = "<group>"; };
+		52D029111B37A4B4007551DD /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		52D029171B37AC1F007551DD /* TZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZNavigationController.h; sourceTree = "<group>"; };
+		52D029181B37AC1F007551DD /* TZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZNavigationController.m; sourceTree = "<group>"; };
+		52D0292A1B37B175007551DD /* Nav动画方案一 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav动画方案一 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D0292B1B37B175007551DD /* Nav动画方案一 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nav动画方案一 copy-Info.plist"; path = "/Users/demon_yao/Desktop/练习app/Nav动画方案一/Nav动画方案一 copy-Info.plist"; sourceTree = "<absolute>"; };
+		52D029621B37C1EC007551DD /* Nav动画方案二 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav动画方案二 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D029631B37C1EC007551DD /* Nav动画方案二 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nav动画方案二 copy-Info.plist"; path = "/Users/demon_yao/Desktop/练习app/Nav动画方案一/Nav动画方案二 copy-Info.plist"; sourceTree = "<absolute>"; };
+		52D029741B37C1F2007551DD /* Nav动画方案二 copy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nav动画方案二 copy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D029751B37C1F2007551DD /* Nav动画方案二 copy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Nav动画方案二 copy copy-Info.plist"; path = "/Users/demon_yao/Desktop/练习app/Nav动画方案一/Nav动画方案二 copy copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D028E01B379D4B007551DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D028F91B379D4B007551DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D029221B37B175007551DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D0295A1B37C1EC007551DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D0296C1B37C1F2007551DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D028DA1B379D4B007551DD = {
+			isa = PBXGroup;
+			children = (
+				52D028E51B379D4B007551DD /* Nav动画方案一 */,
+				52D028FF1B379D4B007551DD /* Nav动画方案一Tests */,
+				52D028E41B379D4B007551DD /* Products */,
+				52D0292B1B37B175007551DD /* Nav动画方案一 copy-Info.plist */,
+				52D029631B37C1EC007551DD /* Nav动画方案二 copy-Info.plist */,
+				52D029751B37C1F2007551DD /* Nav动画方案二 copy copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		52D028E41B379D4B007551DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D028E31B379D4B007551DD /* Nav动画方案一.app */,
+				52D028FC1B379D4B007551DD /* Nav动画方案一Tests.xctest */,
+				52D0292A1B37B175007551DD /* Nav动画方案一 copy.app */,
+				52D029621B37C1EC007551DD /* Nav动画方案二 copy.app */,
+				52D029741B37C1F2007551DD /* Nav动画方案二 copy copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D028E51B379D4B007551DD /* Nav动画方案一 */ = {
+			isa = PBXGroup;
+			children = (
+				52D0290D1B379E21007551DD /* Controllers */,
+				52D0290C1B379E19007551DD /* Commons */,
+				52D028E61B379D4B007551DD /* Supporting Files */,
+			);
+			path = "Nav动画方案一";
+			sourceTree = "<group>";
+		};
+		52D028E61B379D4B007551DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D028EA1B379D4B007551DD /* AppDelegate.h */,
+				52D028EB1B379D4B007551DD /* AppDelegate.m */,
+				52D028F31B379D4B007551DD /* Images.xcassets */,
+				52D028F51B379D4B007551DD /* LaunchScreen.xib */,
+				52D028E71B379D4B007551DD /* Info.plist */,
+				52D028E81B379D4B007551DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52D028FF1B379D4B007551DD /* Nav动画方案一Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52D029021B379D4B007551DD /* Nav_____Tests.m */,
+				52D029001B379D4B007551DD /* Supporting Files */,
+			);
+			path = "Nav动画方案一Tests";
+			sourceTree = "<group>";
+		};
+		52D029001B379D4B007551DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D029011B379D4B007551DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52D0290C1B379E19007551DD /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				52D0290E1B379E73007551DD /* NavgationAnimation.h */,
+				52D0290F1B379E73007551DD /* NavgationAnimation.m */,
+				52D029111B37A4B4007551DD /* NavigationInteractiveTransition.h */,
+				52D029121B37A4B4007551DD /* NavigationInteractiveTransition.m */,
+			);
+			path = Commons;
+			sourceTree = SOURCE_ROOT;
+		};
+		52D0290D1B379E21007551DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52D028ED1B379D4B007551DD /* ViewController.h */,
+				52D028EE1B379D4B007551DD /* ViewController.m */,
+				52D028F01B379D4B007551DD /* Main.storyboard */,
+				52D029171B37AC1F007551DD /* TZNavigationController.h */,
+				52D029181B37AC1F007551DD /* TZNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D028E21B379D4B007551DD /* Nav动画方案一 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D029061B379D4B007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一" */;
+			buildPhases = (
+				52D028DF1B379D4B007551DD /* Sources */,
+				52D028E01B379D4B007551DD /* Frameworks */,
+				52D028E11B379D4B007551DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav动画方案一";
+			productName = "Nav动画方案一";
+			productReference = 52D028E31B379D4B007551DD /* Nav动画方案一.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D028FB1B379D4B007551DD /* Nav动画方案一Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D029091B379D4B007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一Tests" */;
+			buildPhases = (
+				52D028F81B379D4B007551DD /* Sources */,
+				52D028F91B379D4B007551DD /* Frameworks */,
+				52D028FA1B379D4B007551DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D028FE1B379D4B007551DD /* PBXTargetDependency */,
+			);
+			name = "Nav动画方案一Tests";
+			productName = "Nav动画方案一Tests";
+			productReference = 52D028FC1B379D4B007551DD /* Nav动画方案一Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52D0291A1B37B175007551DD /* Nav动画方案二 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D029271B37B175007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案二" */;
+			buildPhases = (
+				52D0291B1B37B175007551DD /* Sources */,
+				52D029221B37B175007551DD /* Frameworks */,
+				52D029231B37B175007551DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav动画方案二";
+			productName = "Nav动画方案一";
+			productReference = 52D0292A1B37B175007551DD /* Nav动画方案一 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D029521B37C1EC007551DD /* Nav动画方案一2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D0295F1B37C1EC007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一2" */;
+			buildPhases = (
+				52D029531B37C1EC007551DD /* Sources */,
+				52D0295A1B37C1EC007551DD /* Frameworks */,
+				52D0295B1B37C1EC007551DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav动画方案一2";
+			productName = "Nav动画方案一";
+			productReference = 52D029621B37C1EC007551DD /* Nav动画方案二 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52D029641B37C1F2007551DD /* Nav动画方案一3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D029711B37C1F2007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一3" */;
+			buildPhases = (
+				52D029651B37C1F2007551DD /* Sources */,
+				52D0296C1B37C1F2007551DD /* Frameworks */,
+				52D0296D1B37C1F2007551DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nav动画方案一3";
+			productName = "Nav动画方案一";
+			productReference = 52D029741B37C1F2007551DD /* Nav动画方案二 copy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D028DB1B379D4B007551DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WorfMan;
+				TargetAttributes = {
+					52D028E21B379D4B007551DD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					52D028FB1B379D4B007551DD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 52D028E21B379D4B007551DD;
+					};
+				};
+			};
+			buildConfigurationList = 52D028DE1B379D4B007551DD /* Build configuration list for PBXProject "Nav动画方案一" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D028DA1B379D4B007551DD;
+			productRefGroup = 52D028E41B379D4B007551DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D028E21B379D4B007551DD /* Nav动画方案一 */,
+				52D029521B37C1EC007551DD /* Nav动画方案一2 */,
+				52D029641B37C1F2007551DD /* Nav动画方案一3 */,
+				52D0291A1B37B175007551DD /* Nav动画方案二 */,
+				52D028FB1B379D4B007551DD /* Nav动画方案一Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D028E11B379D4B007551DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D028F21B379D4B007551DD /* Main.storyboard in Resources */,
+				52D028F71B379D4B007551DD /* LaunchScreen.xib in Resources */,
+				52D028F41B379D4B007551DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D028FA1B379D4B007551DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D029231B37B175007551DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D029241B37B175007551DD /* Main.storyboard in Resources */,
+				52D029251B37B175007551DD /* LaunchScreen.xib in Resources */,
+				52D029261B37B175007551DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D0295B1B37C1EC007551DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D0295C1B37C1EC007551DD /* Main.storyboard in Resources */,
+				52D0295D1B37C1EC007551DD /* LaunchScreen.xib in Resources */,
+				52D0295E1B37C1EC007551DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D0296D1B37C1F2007551DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D0296E1B37C1F2007551DD /* Main.storyboard in Resources */,
+				52D0296F1B37C1F2007551DD /* LaunchScreen.xib in Resources */,
+				52D029701B37C1F2007551DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D028DF1B379D4B007551DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D028EF1B379D4B007551DD /* ViewController.m in Sources */,
+				52D028EC1B379D4B007551DD /* AppDelegate.m in Sources */,
+				52D029101B379E73007551DD /* NavgationAnimation.m in Sources */,
+				52D029191B37AC1F007551DD /* TZNavigationController.m in Sources */,
+				52D029131B37A4B4007551DD /* NavigationInteractiveTransition.m in Sources */,
+				52D028E91B379D4B007551DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D028F81B379D4B007551DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D029031B379D4B007551DD /* Nav_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D0291B1B37B175007551DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D0291C1B37B175007551DD /* ViewController.m in Sources */,
+				52D0291D1B37B175007551DD /* AppDelegate.m in Sources */,
+				52D0291E1B37B175007551DD /* NavgationAnimation.m in Sources */,
+				52D0291F1B37B175007551DD /* TZNavigationController.m in Sources */,
+				52D029201B37B175007551DD /* NavigationInteractiveTransition.m in Sources */,
+				52D029211B37B175007551DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D029531B37C1EC007551DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D029541B37C1EC007551DD /* ViewController.m in Sources */,
+				52D029551B37C1EC007551DD /* AppDelegate.m in Sources */,
+				52D029561B37C1EC007551DD /* NavgationAnimation.m in Sources */,
+				52D029571B37C1EC007551DD /* TZNavigationController.m in Sources */,
+				52D029581B37C1EC007551DD /* NavigationInteractiveTransition.m in Sources */,
+				52D029591B37C1EC007551DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52D029651B37C1F2007551DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D029661B37C1F2007551DD /* ViewController.m in Sources */,
+				52D029671B37C1F2007551DD /* AppDelegate.m in Sources */,
+				52D029681B37C1F2007551DD /* NavgationAnimation.m in Sources */,
+				52D029691B37C1F2007551DD /* TZNavigationController.m in Sources */,
+				52D0296A1B37C1F2007551DD /* NavigationInteractiveTransition.m in Sources */,
+				52D0296B1B37C1F2007551DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52D028FE1B379D4B007551DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52D028E21B379D4B007551DD /* Nav动画方案一 */;
+			targetProxy = 52D028FD1B379D4B007551DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52D028F01B379D4B007551DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D028F11B379D4B007551DD /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../Nav动画方案一";
+			sourceTree = "<group>";
+		};
+		52D028F51B379D4B007551DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D028F61B379D4B007551DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D029041B379D4B007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52D029051B379D4B007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D029071B379D4B007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案一/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一一";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52D029081B379D4B007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案一/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一一";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52D0290A1B379D4B007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nav动画方案一Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav动画方案一.app/Nav动画方案一";
+			};
+			name = Debug;
+		};
+		52D0290B1B379D4B007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nav动画方案一Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nav动画方案一.app/Nav动画方案一";
+			};
+			name = Release;
+		};
+		52D029281B37B175007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案一 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案二";
+				PRODUCT_NAME = "Nav动画方案一 copy";
+			};
+			name = Debug;
+		};
+		52D029291B37B175007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案一 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案二";
+				PRODUCT_NAME = "Nav动画方案一 copy";
+			};
+			name = Release;
+		};
+		52D029601B37C1EC007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案二 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一二";
+				PRODUCT_NAME = "Nav动画方案二 copy";
+			};
+			name = Debug;
+		};
+		52D029611B37C1EC007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案二 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一二";
+				PRODUCT_NAME = "Nav动画方案二 copy";
+			};
+			name = Release;
+		};
+		52D029721B37C1F2007551DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案二 copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一三";
+				PRODUCT_NAME = "Nav动画方案二 copy copy";
+			};
+			name = Debug;
+		};
+		52D029731B37C1F2007551DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nav动画方案二 copy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DUSE_方案一三";
+				PRODUCT_NAME = "Nav动画方案二 copy copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D028DE1B379D4B007551DD /* Build configuration list for PBXProject "Nav动画方案一" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D029041B379D4B007551DD /* Debug */,
+				52D029051B379D4B007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D029061B379D4B007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D029071B379D4B007551DD /* Debug */,
+				52D029081B379D4B007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D029091B379D4B007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D0290A1B379D4B007551DD /* Debug */,
+				52D0290B1B379D4B007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52D029271B37B175007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案二" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D029281B37B175007551DD /* Debug */,
+				52D029291B37B175007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D0295F1B37C1EC007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D029601B37C1EC007551DD /* Debug */,
+				52D029611B37C1EC007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D029711B37C1F2007551DD /* Build configuration list for PBXNativeTarget "Nav动画方案一3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D029721B37C1F2007551DD /* Debug */,
+				52D029731B37C1F2007551DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D028DB1B379D4B007551DD /* Project object */;
+}
